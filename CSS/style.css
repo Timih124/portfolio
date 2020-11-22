@@ -4,8 +4,8 @@ html, body {
 }
 
 body {
-  background-image: url("/assets/background.jpg");
-  font-size: 18px;
+  background-image: url("../assets/background.jpg");
+  font-size: 20px;
   line-height: 34px;
   font-family: 'Dosis','Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: blue;
@@ -19,18 +19,19 @@ body {
 }
 
 h1, h2, h3, p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 p:last-child{
   margin-bottom: 0;
 }
 
-h1, h2, h3 {
+h1,  h3 {
   font-family: 'Passion One', 'Georgia', Times, 'Times New Roman', serif;
   font-weight: 700;
-  color: #bc4f5e;
+  color:black;
 }
+
 
 h1 {
   font-size: 30px;
@@ -47,24 +48,23 @@ h2, h3 {
 
 #navHead {
   width: 100%;
-  margin: 0 0 30px;
   overflow: auto;
-  position: fixed;
-  background: yellow;
+  position: center;
+  background: red;
   border-bottom: 2px solid #470a0a;
 }
 
-#logo {
+#nameBanner {
   width: 350px;
   height: 90px;
   float: left;
   text-align: center;
-  font-family: 'Cookie', 'Georgia', Times, 'Times New Roman', serif;
+  font-family: 'Turret Road', sans-serif;
   line-height: 90px;
   font-weight: 700;
   font-size: 50px;
   text-decoration: none;
-  background: #bc4f5e;
+  background: red;
   color: #fff;
 }
 
@@ -75,11 +75,11 @@ nav {
 
 nav a{
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 25px;
   padding-left: 15px;
   text-decoration: none;
   line-height: 20px;
-  color: #999;
+  color: white;
   border-left: 1px solid #efefef;
 }
 
@@ -118,7 +118,6 @@ nav a:hover {
 }
 
 /* sidebar */
-
 .sidebar { 
   width: 100%;
   max-width: 270px;
@@ -127,24 +126,19 @@ nav a:hover {
   float: left;
   border: 1px solid #ddd;
   background: #fff;
+  color: blue
 }
 
 .sidebar a:hover img {
   border: 3px solid #470a0a;
 }
 
-h3, .sidebar, h2 { 
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
-  border-bottom: 2px solid #eee;
-}
 
 .social {
   width: 62px;
-  height: 62px;
-  margin-top: 8px;
-  margin-right: 5px;
+  height: 100x;
+  margin-top: 10px;
+  margin-right: 40px;
 }
 
 .social:last-child { 
@@ -210,6 +204,10 @@ textarea {
   width: 100%
 }
 
+li{
+  color: white;
+}
+
 input[type=text],
 input[type=email],
 textarea{
@@ -220,7 +218,7 @@ textarea{
 }
 
 textarea{
-  height: 200px;
+  height: 150px;
 }
 
 input[type=submit] {
@@ -228,15 +226,10 @@ input[type=submit] {
   font-size: 18px;
   padding: 10px 30px;
   cursor: pointer;
-  background: #bc4f5e;
+  background: red;
   color: #fff;
 }
 
-
-/* animation */
-@-moz-keyframes portfolioAnim { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes portfolioAnim { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes portfolioAnim { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 /* media queries */
 @media screen and (max-width: 980px) {
@@ -252,7 +245,6 @@ input[type=submit] {
       width: 100%;
   }
 }
-
 @media screen and (max-width: 768px) {
   .container {
       max-width: 650px;
@@ -277,7 +269,6 @@ input[type=submit] {
       width: 45%;
   }
 }
-
 @media screen and (max-width: 640px) {
   #navHead { 
       position: static;
