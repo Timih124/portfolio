@@ -7,9 +7,7 @@ body {
   background-image: url("../assets/background.jpg");
   font-size: 20px;
   line-height: 34px;
-  font-family: 'Dosis','Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: blue;
-}
+ }
 
 .container {
   width:100%;
@@ -162,7 +160,7 @@ nav a:hover {
 
 .work img {
   width: 100%;
-  border: 0 none;
+  border: 10px;
   opacity: .8;
 }
 
