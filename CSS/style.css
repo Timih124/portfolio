@@ -97,7 +97,7 @@ nav a:hover {
   min-height: 100%;
 }
 
-.main-area {
+.aboutme {
   width: 100%;
   max-width: 650px;
   padding: 30px;
@@ -116,18 +116,20 @@ nav a:hover {
 }
 
 /* sidebar */
-.sidebar { 
+.gitLi { 
   width: 100%;
-  max-width: 270px;
+  max-width: 250px;
   padding: 30px;
   margin-bottom: 20px;
-  float: left;
+  margin-top: 20;
+  max-height: auto;
+  float: right;
   border: 1px solid #ddd;
   background: #fff;
   color: blue
 }
 
-.sidebar a:hover img {
+.gitLi a:hover img {
   border: 3px solid #470a0a;
 }
 
@@ -144,7 +146,7 @@ nav a:hover {
 }
 
 
-/* portfolio */
+/* css for the portfolio page */
 
 .work {
   width: 274px;
@@ -174,7 +176,7 @@ nav a:hover {
   margin-bottom: 0;
   text-align: center;
   font-weight: 300;
-  background: #bc4f5e;
+  background:orange;
   color: #fff;
 }
 
@@ -229,7 +231,7 @@ input[type=submit] {
 }
 
 
-/* media queries */
+/* adjust to screen size of phone, tablets, computers screens, */
 @media screen and (max-width: 980px) {
   .container {
       max-width: 760px;
@@ -248,7 +250,7 @@ input[type=submit] {
       max-width: 650px;
   }
 
-  .main-section, .sidebar 
+  .main-section, .gitLi 
   {
       width: 100%;
       max-width: 100%;
@@ -258,7 +260,7 @@ input[type=submit] {
       width: 50%;
   }
 
-  .sidebar { 
+  .gitLi { 
       margin-bottom: 40px;
   }
 
