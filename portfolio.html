@@ -4,7 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/portfolio.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://rawgit.com/toddmotto/echo/master/dist/echo.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <title>Tim Hackel</title>
     </head>
 <body>
@@ -14,30 +18,67 @@
     <a href="index.html" id="nameBanner"> Tim Hackel</a>
      <nav class="navbar navbar-expand-lg navbar-light">
           <a class="nav-link" href="index.html">About Me</a>
-          <a class="nav-link" href="portfolio.html">My Work</a>
+          <a class="nav-link" href="portfolio.html">My Portfolio</a>
           <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
      </nav>
   </div>
 </header>
 
-<body>
-<div id="main-container" class="container">
-  <section class="main-section">
-      <h1>Portfolio</h1>
-      <div class="work">
-          <a href="">
-              <img src="assets/foodproj.jpg" class="auth-image" alt="Group Project 1" />
-              <h3>Project 1</h3>
-          </a>
-      </div>
 
-      <div class="work">
-          <a href="https://timih124.github.io/coding-quiz/">
-              <img src="assets/quiz.jpg" class="auth-image" alt="Quiz Project" />
-              <h3>Quiz Project</h3>
-          </a>
+
+<section class="paddingSection100 project-tiles projectTiles">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2>My Portfolio</h2>
+        <p class="paddingBottom45">Here you can find projects I've done by myself and with others. Using programming lanugages like MYSQL, JS, CSS NODE, SEQEULIZE, EXPRESS Feel free to browse around and enjoy.</p>
       </div>
-  </section>
+    </div>
+    <ul class="row">
+      <li class="col-xs-6 col-md-3 project-tiles-items">
+        <div class="portfolioInner">
+          <a href="https://git.heroku.com/pantry-group5.git"><img alt="Image Alt 1" class="img-responsive img-fluid " src="assets/pantry2.png" data-echo="assets/pantry2.png"></a>
+          <div class="textOverlay">
+            <span>the Pantry</span>
+          </div>
+        </div>
+      </li>
+      <li class="col-xs-6 col-md-3 project-tiles-items">
+        <div class="portfolioInner">
+          <a href="https://group-6-project-1.github.io/Dinner-and-a-show/"><img alt="project 1" class="img-responsive img-fluid" src="assets/foodproj.jpg" data-echo="assets/foodproj.jpg"></a>
+          <div class="textOverlay">
+            <span>Dinner & a Show</span>
+          </div>
+        </div>
+        </li>
+
+      <li class="col-xs-6 col-md-3 project-tiles-items">
+        <div class="portfolioInner">
+          <a href="https://timih124.github.io/coding-quiz/"><img alt="Quiz Project" class="img-responsive img-fluid" src="assets/quiz.jpg" data-echo="assets/quiz.jpg"></a>
+          <div class="textOverlay">
+            <span>Quiz Project</span>
+          </div>
+        </div>
+      </div>  
+
+      <aside class="gitLi">
+        <div id="connect"></div>
+            <h2>Find Me On</h2>
+             <ul>
+              <a href="https://github.com/timih124" target="_blank"><img src='assets/github.png' class="social" alt="Github"/></a>
+              <a href="https://www.linkedin.com/in/timhackel/" target="_blank"><img src='assets/linkedin.png' class="social" alt="LinkedIn"/></a>
+             </ul>
+        </div>
+      </aside>
+    
+    </body>
+    </html>
+<!-- 
+
+
+
+
+
 <aside>
   <section class="gitLi">
     <div id="connect"></div>
@@ -48,9 +89,3 @@
          </ul>
     </div>
   </section>
-</div>  
-
-
-    
-</body>
-</html>

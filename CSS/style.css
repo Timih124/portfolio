@@ -47,7 +47,7 @@ h2, h3 {
 #navHead {
   width: 100%;
   overflow: auto;
-  position: center;
+  position: right;
   background: red;
   border-bottom: 2px solid #470a0a;
 }
@@ -56,7 +56,7 @@ h2, h3 {
   width: 350px;
   height: 90px;
   float: left;
-  text-align: center;
+  text-align: right;
   font-family: 'Turret Road', sans-serif;
   line-height: 90px;
   font-weight: 700;
